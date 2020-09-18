@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- animate link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap" rel="stylesheet"/>
+    <style>
+        .box {
+            width: 350px;
+            height: 350px;
+            margin: 90px auto;
+        }
+
+        .input {
+            width: 300px;
+            height: 45px;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body style='background-color:#f4f4f4;font-family:Roboto;'>
+    <div class='box'>
+        <form style='text-align: center;'>
+            <h3>Inscription</h3>
+            <input class='input' type='text' placeholder="Nom Complet" required />
+            <input minlength="8" class="input" type='number' placeholder="Telephone" required />
+            <input class="input" type='email' placeholder="Email"  required/>
+            <br/><br/>
+            <label style="font-size: 22px;">Specialié *</label>
+            <select class="input" required>
+                <option>INJECTION DES MATIERES PLASTIQUES</option>
+                <option>EXTRUSION DES MATIERES PLASTIQUES</option>
+                <option>AUTOMATISME INDUSTRIELS</option>
+                <option>TECHNOLOGIE DE L’ENVIRONNEMENT</option>
+                <option>Hygiène, Sécurité des denrées alimentaires</option>
+                <option>MANAGEMENT DE LA QUALITE</option>
+                <option>MANAGEMENT DE L’ENERGIE</option>
+                <option>MANAGEMENT DE L’ENVIRONNEMENT</option>
+                <option>DE MAINTENANCE</option> 
+                <option>MECANIQUE</option>
+                <option>MAINTENANCE</option>
+                <option>ELECTRICITE</option>
+            </select>
+            <br/><br/>
+            <button class="btn btn-primary btn-block">Envoyer</button>
+        </form>
+
+
+    </div>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- animate -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
