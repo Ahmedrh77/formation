@@ -9,7 +9,7 @@ app.use(express.static("public"));
 
 
 app.get('/', function(req, res) {
-    res.render('pages/index');
+    res.render('views/index');
 });
 
 
